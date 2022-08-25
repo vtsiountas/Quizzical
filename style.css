@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+.start--title {
+  font-family: "Karla", sans-serif;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #293264;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+  align-items: center;
+}
+.start {
+  display: flex;
+  flex-direction: column;
+  color: #293264;
+  font-family: "Inter", sans-serif;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding: 100px;
+}
+
+.start--description {
+  padding: 0;
+}
+
+.start--button {
+  width: fit-content;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  border-radius: 15px;
+  border: none;
+  padding: 16px;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.game--button {
+  width: fit-content;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  border-radius: 15px;
+  border: none;
+  padding: 18px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 30px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.questions {
+  margin-bottom: 20px;
+}
+
+.replay {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.question--title {
+  margin-bottom: 0;
+}
+
+hr {
+  border: 1px solid #dbdef0;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.options div {
+  display: inline-block;
+}
+
+.options input[type="radio"] {
+  display: none;
+}
+
+.options label {
+  display: block;
+  width: 100%;
+  height: 100%x;
+  background: white;
+  color: #293264;
+  border: 1px solid #4d5b9e;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 0 4px 10px 0;
+  text-align: center;
+  position: relative;
+}
+
+.options input[type="radio"] + label {
+  cursor: pointer;
+}
+
+.options input[type="radio"]:checked + label {
+  color: #293264;
+  border: none;
+  background-color: #d6dbf5;
+  font-weight: 1000;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.option {
+  margin-left: 10px;
+  margin-right: 10px;
+}
